@@ -12,7 +12,7 @@ export interface ButtonProps {
   onClick?: () => void;
 
   /**
-   * Class name to style the button :)
+   * Class name to style the button
    */
   className: string;
 }
