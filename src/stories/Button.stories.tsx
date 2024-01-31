@@ -7,7 +7,7 @@ const meta = {
   component: Button,
   tags: ["autodocs"],
   argTypes: {
-    backgroundColor: { control: "color" },
+    className: { table: { disable: true } }, // disable className from being shown
   },
 } satisfies Meta<typeof Button>;
 
@@ -16,13 +16,13 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    primary: true,
+    className: "storybook-button storybook-button--primary",
     label: "Button",
   },
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/NZL0ZFjHwiQgTCUgb1bhPo/Untitled?type=design&node-id=1-6&mode=design&t=Whhgjc1nyb1TUZdV-11",
+      url: "https://www.figma.com/file/NZL0ZFjHwiQgTCUgb1bhPo/chromatic-test?type=design&node-id=1-6&mode=dev",
       allowFullscreen: true,
     },
   },
@@ -30,38 +30,13 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
+    className: "storybook-button storybook-button--secondary",
     label: "Button",
   },
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
-    },
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: "large",
-    label: "Button",
-  },
-  parameters: {
-    design: {
-      type: "figma",
-      url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
-    },
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: "small",
-    label: "Button",
-  },
-  parameters: {
-    design: {
-      type: "figma",
-      url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
+      url: "https://www.figma.com/file/NZL0ZFjHwiQgTCUgb1bhPo/chromatic-test?type=design&node-id=121-10&mode=dev",
     },
   },
 };
