@@ -1,23 +1,35 @@
 .storybook-button {
-    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    border: 1px solid;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 20px; /* 125% */
-    font-size: 16px;
-    padding: 12px 16px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px; /* 125% */
+  font-size: 16px;
+  padding: 12px 16px;
+  transition: background-color 0.3s ease; /* Add transition effect for smooth color change */
 }
 
 .storybook-button--primary {
   color: #FFF;
-  background: #000347;
-  border-color: #4145a7;
+  background: #004715;
+  border-color: #a76541;
+}
+
+.storybook-button--primary:hover {
+  background: #641a41; /* Change background color on hover */
+  /* Add any other desired hover styles here */
 }
 
 .storybook-button--secondary {
-  color: #000347;
-  border-color: #000347;
+  color: #0e18df;
+  border-color: #d47fa0;
   background: #A4A7F0;
+}
+
+.storybook-button--secondary:hover {
+  background: #210dd1; /* Change background color on hover */
+  color: #FFF; /* Change text color on hover */
+  /* Add any other desired hover styles here */
 }
