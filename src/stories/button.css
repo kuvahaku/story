@@ -1,6 +1,6 @@
 .storybook-button {
-  color: #FFF;
-  font-family: Inter;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
@@ -11,10 +11,8 @@
   padding: 0.75rem 1rem;
   border-radius: 1rem;
   border: 1px solid;
-  background: linear-gradient(180deg, #1F248F 0%, #00011D 100%);
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
   transition: background-color 0.1s ease; /* Add transition effect for smooth color change */
 }
 
