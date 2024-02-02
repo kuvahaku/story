@@ -26,13 +26,13 @@
 .storybook-button--primary:hover {
   cursor: wait;
   background: linear-gradient(180deg, #3136A5 0%, #00011D 100%);
-
 }
 
 .storybook-button--secondary {
   color: #000;
-  background: linear-gradient(180deg, #6f18f2 0%, #35d211 100%);
+  background: linear-gradient(180deg, #EFEFEF 0%, #B0B0B0 100%);
 }
+
 .storybook-button--secondary:hover {
   background: linear-gradient(180deg, #FFF 0%, #C8C8C8 100%);
 }
