@@ -30,8 +30,8 @@
 }
 
 .storybook-button--secondary {
-  color: #00011D;
-  background: linear-gradient(180deg, #F21818 0%, #AE1919 100%);
+  color: #000;
+  background: linear-gradient(180deg, #6f18f2 0%, #35d211 100%);
 }
 .storybook-button--secondary:hover {
   background: linear-gradient(180deg, #FFF 0%, #C8C8C8 100%);
