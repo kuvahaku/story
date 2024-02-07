@@ -17,22 +17,22 @@
 }
 
 .storybook-button--primary {
-  color: #FFF;
-  display: inline-flex;
-  border-color: #575AB9;
-  background: linear-gradient(180deg, #1F248F 0%, #00011D 100%);
-
+  color: var(--fg-action-primary, #FAFBFE);
+  border: var(--border-color-primary, #D5C6F9);
+  background: var(--bg-action-primary, #332749);
 }
+
 .storybook-button--primary:hover {
-  cursor: wait;
-  background: linear-gradient(180deg, #3136A5 0%, #00011D 100%);
+  background: var(--bg-action-primary-hover, #514173);
+  color: var(--fg-action-primary, #FAFBFE);  
 }
 
 .storybook-button--secondary {
-  color: #000;
-  background: linear-gradient(180deg, #EFEFEF 0%, #B0B0B0 100%);
+  color: var(--fg-action-secondary, #494A53);
+  background: var(--bg-action-secondary, #F0F3FE);
 }
 
 .storybook-button--secondary:hover {
-  background: linear-gradient(180deg, #FFF 0%, #C8C8C8 100%);
-}
+  color: var(--fg-action-secondary, #494A53);
+  background: var(--bg-action-secondary, #F0F3FE);
+  }
