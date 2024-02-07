@@ -18,12 +18,12 @@
 
 .storybook-button--primary {
   color: var(--fg-action-primary, #FAFBFE);
-  border: var(--border-color-primary, #B7CFFE);
-  background: var(--bg-action-primary, #1E2D4C);
+  border: var(--border-color-primary, #D5C6F9);
+  background: var(--bg-action-primary, #332749);
 }
 
 .storybook-button--primary:hover {
-  background: var(--bg-action-primary-hover, #334978);
+  background: var(--bg-action-primary-hover, #514173);
   color: var(--fg-action-primary, #FAFBFE);  
 }
 
