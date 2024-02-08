@@ -17,7 +17,7 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     className: "storybook-button storybook-button--primary",
-    label: "Button",
+    label: "Primary",
   },
   parameters: {
     design: {
@@ -31,7 +31,7 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     className: "storybook-button storybook-button--secondary",
-    label: "Button",
+    label: "Secondary",
   },
   parameters: {
     design: {
