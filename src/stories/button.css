@@ -5,14 +5,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.25rem;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.02rem;
   text-align: center;
   display: inline-flex;
   padding: 0.75rem 1rem;
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.2s ease; /* Add transition effect for smooth color change */
+  transition: background-color 0.1s ease; /* Add transition effect for smooth color change */
 }
 
 .storybook-button--primary {
