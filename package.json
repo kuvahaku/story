@@ -10,7 +10,9 @@
     "serve": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_8f6e594a74ce537"
+    "chromatic": "npx chromatic --project-token=chpt_8f6e594a74ce537",
+    "acp": "git add . && git commit -m \"$npm_config_message\" && git push origin main && npm run chromatic"
+
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.6.12",
